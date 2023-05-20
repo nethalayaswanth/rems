@@ -1,10 +1,10 @@
 <div align="center">
-<h1> rext</h1>
+<h1> REMS</h1>
 
 The Simplest React State Manager
 
 
-**R**eact **E**xternal **S**tore 
+**R**eact **E**xternal **M**utable  **S**tore 
 
 (Support React 18, React Native, SSR, Mini Apps)
 
@@ -16,7 +16,7 @@ The Simplest React State Manager
 
 ## Introduction
 
-rest is a simple react external store works using proxy 
+rems is a simple react external store works using proxy 
 
 works with nested objects
 
@@ -40,8 +40,8 @@ npm i rext
 ## Usage
 
 ```jsx
-import rext from 'rext';
-const store = rext({ count: 0, text: 'hello' });
+import rems from 'rems';
+const store = rems({ count: 0, text: 'hello' });
 function App() {
   const { count } = store; // value to cause rerender should be destructure on component 
   return (
@@ -59,8 +59,8 @@ function App() {
 **Initialize**
 
 ```jsx
-import rext from 'rext';
-const store = rext({
+import rems from 'rems';
+const store = rems({
   count: 0,
   inc: () => {
     const { count } = store; // data in methods must destructure at top, also 🥷

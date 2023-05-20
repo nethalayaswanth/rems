@@ -1,11 +1,11 @@
 {
-  "name": "react-typescript",
+  "name": "rems",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
+  "description": "a simple react external store",
   "keywords": [
     "typescript",
     "react",
-    "starter"
+    "externalStore"
   ],
   "main": "src/index.tsx",
   "dependencies": {
@@ -31,5 +31,18 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "author": "yaswanth nethala <yaswanthnethala1999@gmail.com>",
+  "homepage": "https://github.com/nethalayaswanth/rext",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nethalayaswanth/rext.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nethalayaswanth/rext/issues"
+  }
 }
