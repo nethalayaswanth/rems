@@ -33,16 +33,16 @@
     "not op_mini all"
   ],
   "author": "yaswanth nethala <yaswanthnethala1999@gmail.com>",
-  "homepage": "https://github.com/nethalayaswanth/rext",
+  "homepage": "https://github.com/nethalayaswanth/rems",
   "directories": {
     "example": "example"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nethalayaswanth/rext.git"
+    "url": "git+https://github.com/nethalayaswanth/rems.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nethalayaswanth/rext/issues"
+    "url": "https://github.com/nethalayaswanth/rems/issues"
   }
 }
